@@ -4,7 +4,7 @@ function Output({output}){
     return(
         <div className='outputBackground'>
             <h2 id='outputText'>
-                {output}
+                {output||'0'}
             </h2>
         </div>
     );
