@@ -5,11 +5,12 @@ import Buttons from './Buttons.jsx'
 function App() {
   
   return(
-    <div className='calculator'>
-      <Title/>  
+
+    <div className='calculator'> 
       <Output/>  
       <Buttons/>
     </div>
+
 
   );
 

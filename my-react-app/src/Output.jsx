@@ -2,9 +2,11 @@
 function Output(){
 
     return(
-        <h2 id='outputText'>
-            placeholder
-        </h2>
+        <div className='outputBackground'>
+            <h2 id='outputText'>
+                placeholder
+            </h2>
+        </div>
     );
 }
 

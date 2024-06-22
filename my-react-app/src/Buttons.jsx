@@ -5,7 +5,7 @@ function Buttons(){
 
             <div id='firstRow'>
                 <button id='AC'>AC</button>
-                <button id='add' className='operations'>+</button>
+                <button onClick="appendToDisplay('+')" className='operations'>+</button>
             </div>
 
             <div id='secondRow'>
