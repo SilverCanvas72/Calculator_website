@@ -1,10 +1,10 @@
 
-function Output(){
+function Output({input}){
 
     return(
         <div className='outputBackground'>
             <h2 id='outputText'>
-                placeholder
+                {input || '0'}
             </h2>
         </div>
     );

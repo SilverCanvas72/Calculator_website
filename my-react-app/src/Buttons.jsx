@@ -4,39 +4,40 @@ function Buttons(){
         <div id='buttonsContainer'>
 
             <div id='firstRow'>
-                <button onClick="clearDisplay" id='AC'>AC</button>
-                <button onClick="appendToDisplay('+')" className='operations'>+</button>
+                <button id='AC'>AC</button>
+                <button className='operations'>+</button>
             </div>
 
             <div id='secondRow'>
-                <button onClick="appendToDisplay('1')">1</button>
-                <button onClick="appendToDisplay('2')">2</button>
-                <button onClick="appendToDisplay('3')">3</button>
-                <button onClick="appendToDisplay('-')" className='operations'>-</button>
+                <button >1</button>
+                <button >2</button>
+                <button >3</button>
+                <button className='operations'>-</button>
             </div>
 
             <div id='thirdRow'>
-                <button onClick="appendToDisplay('4')">4</button>
-                <button onClick="appendToDisplay('5')">5</button>
-                <button onClick="appendToDisplay('6')">6</button>
-                <button onClick="appendToDisplay('*')" className='operations'>x</button>
+                <button >4</button>
+                <button >5</button>
+                <button >6</button>
+                <button className='operations'>x</button>
             </div>
 
             <div id='fourtRow'>
-                <button onClick="appendToDisplay('7')">7</button>
-                <button onClick="appendToDisplay('8')">8</button>
-                <button onClick="appendToDisplay('9')">9</button>
-                <button onClick="appendToDisplay('/')" className='operations'>/</button>
+                <button >7</button>
+                <button >8</button>
+                <button >9</button>
+                <button className='operations'>/</button>
             </div>
 
             <div id='fifthRow'>
-                <button onClick="appendToDisplay('.')">.</button>
-                <button onClick="appendToDisplay('0')">0</button>
-                <button onClick="calculate()" id='equals'>=</button>
+                <button >.</button>
+                <button >0</button>
+                <button id='equals'>=</button>
             </div>
 
         </div>
     );
 }
+
 
 export default Buttons

@@ -6,7 +6,7 @@ function App() {
   return(
 
     <div className='calculator'> 
-      <Output/>  
+      <Output/>
       <Buttons/>
     </div>
 
