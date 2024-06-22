@@ -1,0 +1,50 @@
+#AC:active {
+    background-color: rgb(156, 133, 192);
+}
+button{
+    background-color: rgb(214, 179, 222);
+    width:100px;
+    height: 100px;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(189, 159, 196);
+}
+
+button:active {
+    background-color: rgb(160, 132, 166);
+}
+
+.operations {
+    background-color:rgb(178, 211, 222);
+}
+
+.operations:hover {
+    background-color: rgb(150, 180, 190);
+}
+
+.operations:active {
+    background-color: rgb(131, 156, 164);
+}
+
+
+#equals{
+    width:220px;
+}
+
+#AC {
+    width: 340px;
+    background-color: rgb(195, 172, 230);
+}
+
+#AC:hover {
+    background-color: rgb(168, 147, 203);
+}
+
+#AC:active {
+    background-color: rgb(146, 126, 178);
+}
