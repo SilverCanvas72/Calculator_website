@@ -4,35 +4,35 @@ function Buttons(){
         <div id='buttonsContainer'>
 
             <div id='firstRow'>
-                <button id='AC'>AC</button>
+                <button onClick="clearDisplay" id='AC'>AC</button>
                 <button onClick="appendToDisplay('+')" className='operations'>+</button>
             </div>
 
             <div id='secondRow'>
-                <button id='one'>1</button>
-                <button id='two'>2</button>
-                <button id='three'>3</button>
-                <button id='minus' className='operations'>-</button>
+                <button onClick="appendToDisplay('1')">1</button>
+                <button onClick="appendToDisplay('2')">2</button>
+                <button onClick="appendToDisplay('3')">3</button>
+                <button onClick="appendToDisplay('-')" className='operations'>-</button>
             </div>
 
             <div id='thirdRow'>
-                <button id='four'>4</button>
-                <button id='five'>5</button>
-                <button id='six'>6</button>
-                <button id='multiply' className='operations'>x</button>
+                <button onClick="appendToDisplay('4')">4</button>
+                <button onClick="appendToDisplay('5')">5</button>
+                <button onClick="appendToDisplay('6')">6</button>
+                <button onClick="appendToDisplay('*')" className='operations'>x</button>
             </div>
 
             <div id='fourtRow'>
-                <button id='seven'>7</button>
-                <button id='eight'>8</button>
-                <button id='nine'>9</button>
-                <button id='divide' className='operations'>/</button>
+                <button onClick="appendToDisplay('7')">7</button>
+                <button onClick="appendToDisplay('8')">8</button>
+                <button onClick="appendToDisplay('9')">9</button>
+                <button onClick="appendToDisplay('/')" className='operations'>/</button>
             </div>
 
             <div id='fifthRow'>
-                <button id='decimal'>.</button>
-                <button id='zero'>0</button>
-                <button id='equals'>=</button>
+                <button onClick="appendToDisplay('.')">.</button>
+                <button onClick="appendToDisplay('0')">0</button>
+                <button onClick="calculate()" id='equals'>=</button>
             </div>
 
         </div>
